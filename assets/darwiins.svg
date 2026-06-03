@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E73C4E"/>
+      <stop offset="100%" stop-color="#B11C2C"/>
+    </radialGradient>
+
+    <mask id="cutout">
+      <!-- Todo visible -->
+      <rect width="400" height="400" fill="white"/>
+
+      <!-- D en espacio negativo -->
+      <rect x="135" y="105" width="40" height="190" rx="10" fill="black"/>
+
+      <path
+        fill="black"
+        d="
+          M170 105
+          C255 105 295 145 295 200
+          C295 255 255 295 170 295
+          L170 255
+          C225 255 255 235 255 200
+          C255 165 225 145 170 145
+          Z
+        "
+      />
+    </mask>
+  </defs>
+
+  <path
+    mask="url(#cutout)"
+    fill="url(#g1)"
+    d="M200,40
+       C260,80 320,90 330,160
+       C340,230 290,250 280,300
+       C270,350 200,360 150,330
+       C100,300 60,260 70,200
+       C80,140 140,10 200,40 Z"
+  />
+  <circle cx="320" cy="80" r="10" fill="#C8102E"/>
+  <circle cx="80" cy="320" r="6" fill="#C8102E"/>
+  <circle cx="350" cy="280" r="4" fill="#C8102E"/>
+</svg>
