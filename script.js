@@ -1,6 +1,6 @@
 /* Darwins Ink — interactions */
 
-const WHATSAPP_NUMBER = "524494028170";
+const WHATSAPP_NUMBER = "524494993540";
 const MXN_FORMATTER = new Intl.NumberFormat('es-MX', {
   style: 'currency',
   currency: 'MXN',
