@@ -18,7 +18,7 @@
 const categories = [
   // 'id' es lo que va en product.category y en los filtros.
   // 'image' se usa como portada de la categoría en la sección "Por categoría".
-  { id: "playera", label: "Playeras", image: "assets/playeras/otros/gato.webp" },
+  { id: "playera", label: "Playeras", image: "assets/playeras/frutas/strawberry_cat_white.webp" },
   { id: "taza",    label: "Tazas",    image: "assets/tazas/anime/taza-saitama.jpeg" },
   // { id: "poster",  label: "Pósters",  image: "assets/posters/poster-bauhaus.jpeg" },
   // { id: "otros",   label: "Otros",    image: "assets/otros/otros.jpeg" },
@@ -27,19 +27,19 @@ const categories = [
 const playeraProducts = [
   {
     id: "playera-001",
-    name: "Playera Origin",
+    name: "Playera Origin Cat",
     price: 180,
     image: ["assets/playeras/otros/gato.webp"],
     category: "playera",
     featured: true,
   },
-  {
-    id: "playera-002",
-    name: "Playera Power",
-    price: 180,
-    image: ["assets/playeras/anime/power.webp"],
-    category: "playera",
-  },
+  // {
+  //   id: "playera-002",
+  //   name: "Playera Power",
+  //   price: 180,
+  //   image: ["assets/playeras/anime/power.webp"],
+  //   category: "playera",
+  // },
   {
     id: "playera-003",
     name: "Playera Modelo 01",
@@ -47,13 +47,13 @@ const playeraProducts = [
     image: ["assets/playeras/otros/model-01.webp"],
     category: "playera",
   },
-  {
-    id: "playera-004",
-    name: "Playera Alucard",
-    price: 180,
-    image: ["assets/playeras/anime/alucard.webp"],
-    category: "playera",
-  },
+  // {
+  //   id: "playera-004",
+  //   name: "Playera Alucard",
+  //   price: 180,
+  //   image: ["assets/playeras/anime/alucard.webp"],
+  //   category: "playera",
+  // },
   {
     id: "playera-005",
     name: "Playera Anya",
@@ -68,14 +68,14 @@ const playeraProducts = [
     image: ["assets/playeras/anime/deathnote.webp"],
     category: "playera",
   },
-    {
-    id: "playera-007",
-    name: "Playera Denji",
-    price: 180,
-    image: ["assets/playeras/anime/denji.webp"],
-    category: "playera",
-    featured: true,
-  },
+  // {
+  //   id: "playera-007",
+  //   name: "Playera Denji",
+  //   price: 180,
+  //   image: ["assets/playeras/anime/denji.webp"],
+  //   category: "playera",
+  //   featured: true,
+  // },
   {
     id: "playera-008",
     name: "Playera Gojo",
@@ -90,14 +90,14 @@ const playeraProducts = [
     image: ["assets/playeras/anime/goku.webp"],
     category: "playera",
   },
-    {
-    id: "playera-010",
-    name: "Playera Nezuko",
-    price: 180,
-    image: ["assets/playeras/anime/nezuko.webp"],
-    category: "playera",
-    featured: true,
-  },
+  // {
+  //   id: "playera-010",
+  //   name: "Playera Nezuko",
+  //   price: 180,
+  //   image: ["assets/playeras/anime/nezuko.webp"],
+  //   category: "playera",
+  //   featured: true,
+  // },
   {
     id: "playera-011",
     name: "Playera Pikachu",
@@ -123,7 +123,10 @@ const playeraProducts = [
     id: "playera-014",
     name: "Playera Goku Family",
     price: 180,
-    image: ["assets/playeras/anime/goku-2.webp"],
+    image: [
+      "assets/playeras/anime/goku-2-black.webp",
+      "assets/playeras/anime/goku-2.webp"
+    ],
     category: "playera",
   },
   {
@@ -133,6 +136,56 @@ const playeraProducts = [
     image: [
       "assets/playeras/otros/usa.webp",
       "assets/playeras/otros/usa-2.webp"
+    ],
+    category: "playera",
+  },
+  {
+    id: "playera-016",
+    name: "Playera Banana Cat",
+    price: 180,
+    image: [
+      "assets/playeras/frutas/banana_cat_white.webp",
+      "assets/playeras/frutas/banana_cat_black.webp",
+    ],
+    category: "playera",
+  },
+  {
+    id: "playera-017",
+    name: "Playera Blueberry Cat",
+    price: 180,
+    image: [
+      "assets/playeras/frutas/blueberry_cat_wihte.webp",
+      "assets/playeras/frutas/blueberry_cat_black.webp",
+    ],
+    category: "playera",
+  },
+  {
+    id: "playera-018",
+    name: "Playera Cucumber Cat",
+    price: 180,
+    image: [
+      "assets/playeras/frutas/cucumber_cat_white.webp",
+      "assets/playeras/frutas/cucumber_cat_black.webp",
+    ],
+    category: "playera",
+  },
+  {
+    id: "playera-019",
+    name: "Playera Kiwi Cat",
+    price: 180,
+    image: [
+      "assets/playeras/frutas/kiwi_cat_white.webp",
+      "assets/playeras/frutas/kiwi_cat_black.webp",
+    ],
+    category: "playera",
+  },
+  {
+    id: "playera-020",
+    name: "Playera Strawberry Cat",
+    price: 180,
+    image: [
+      "assets/playeras/frutas/strawberry_cat_white.webp",
+      "assets/playeras/frutas/strawberry_cat_black.webp",
     ],
     category: "playera",
   }
