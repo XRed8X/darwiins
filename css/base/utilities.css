@@ -1,0 +1,39 @@
+:root {
+    --max-width: 1920px;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ===== TEXT ALIGNMENT ===== */
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* ===== REVEAL ===== */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity .8s ease, transform .8s ease; }
+.reveal.is-visible { opacity: 1; transform: none; }
+
+:focus-visible { outline: 2px solid var(--crimson); outline-offset: 3px; border-radius: 4px; }
